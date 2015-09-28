@@ -15,6 +15,8 @@
 		792C63111BB9514C00E80298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792C630F1BB9514C00E80298 /* LaunchScreen.storyboard */; };
 		792C631C1BB9514C00E80298 /* TestDesignableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C631B1BB9514C00E80298 /* TestDesignableTests.m */; };
 		792C63271BB9514C00E80298 /* TestDesignableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C63261BB9514C00E80298 /* TestDesignableUITests.m */; };
+		792C63361BB9517400E80298 /* Inside.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C63351BB9517400E80298 /* Inside.m */; settings = {ASSET_TAGS = (); }; };
+		792C633A1BB951A400E80298 /* Inside.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792C63391BB951A400E80298 /* Inside.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		792C63221BB9514C00E80298 /* TestDesignableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDesignableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792C63261BB9514C00E80298 /* TestDesignableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDesignableUITests.m; sourceTree = "<group>"; };
 		792C63281BB9514C00E80298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792C63341BB9517400E80298 /* Inside.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inside.h; sourceTree = "<group>"; };
+		792C63351BB9517400E80298 /* Inside.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inside.m; sourceTree = "<group>"; };
+		792C63391BB951A400E80298 /* Inside.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Inside.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				792C630F1BB9514C00E80298 /* LaunchScreen.storyboard */,
 				792C63121BB9514C00E80298 /* Info.plist */,
 				792C63011BB9514C00E80298 /* Supporting Files */,
+				792C63341BB9517400E80298 /* Inside.h */,
+				792C63351BB9517400E80298 /* Inside.m */,
+				792C63391BB951A400E80298 /* Inside.xib */,
 			);
 			path = TestDesignable;
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 				792C63111BB9514C00E80298 /* LaunchScreen.storyboard in Resources */,
 				792C630E1BB9514C00E80298 /* Assets.xcassets in Resources */,
 				792C630C1BB9514C00E80298 /* Main.storyboard in Resources */,
+				792C633A1BB951A400E80298 /* Inside.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				792C63091BB9514C00E80298 /* ViewController.m in Sources */,
 				792C63061BB9514C00E80298 /* AppDelegate.m in Sources */,
 				792C63031BB9514C00E80298 /* main.m in Sources */,
+				792C63361BB9517400E80298 /* Inside.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
